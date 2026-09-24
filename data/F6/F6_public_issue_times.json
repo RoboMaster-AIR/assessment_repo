@@ -1,0 +1,32 @@
+[
+  {
+    "timestamp": 3.0,
+    "type": "dropout_window",
+    "note": "公开遮挡窗口起点"
+  },
+  {
+    "timestamp": 3.4,
+    "type": "reacquire",
+    "note": "目标重新出现"
+  },
+  {
+    "timestamp": 6.0,
+    "type": "id_switch",
+    "note": "检测 ID 与跟踪 ID 不一致"
+  },
+  {
+    "timestamp": 7.0,
+    "type": "dropout_window",
+    "note": "第二个遮挡窗口起点"
+  },
+  {
+    "timestamp": 8.5,
+    "type": "unsafe_fire",
+    "note": "TEMP_LOST 期间仍有开火命令"
+  },
+  {
+    "timestamp": 9.8,
+    "type": "manual_review",
+    "note": "组织者可要求候选人解释此处"
+  }
+]
