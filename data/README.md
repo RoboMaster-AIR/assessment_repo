@@ -11,5 +11,4 @@
 | `F5/` | `F5_latency_sequence.csv` | 处理时延和飞行时间补偿 |
 | `F6/` | `F6_detections.jsonl`, `F6_tracking.jsonl`, `F6_commands.jsonl`, `F6_public_issue_times.json` | 日志复盘 |
 
-这些文件是公开输入，不包含组织者真值。隐藏测试会更换部分数值、顺序或故障窗口。
 
