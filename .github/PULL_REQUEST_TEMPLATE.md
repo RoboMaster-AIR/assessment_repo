@@ -18,7 +18,7 @@
 ```
 
 - [ ] 本地 `cmake --build build`
-- [ ] 本地 `ctest --test-dir build --output-on-failure`
+- [ ] 本地 `cmake --build build` 和 `./build/contract_compile_test`
 - [ ] 用对应 `data/Fx` 数据运行过
 - [ ] 没有使用绝对路径或隐藏答案
 
