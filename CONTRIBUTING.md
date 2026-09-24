@@ -1,6 +1,6 @@
 # 提交规范
 
-本仓库使用 fork + branch + pull request。候选人不得直接 push 组织者主仓库。
+本仓库使用 fork + branch + pull request。候选人不得直接 push算法组主仓库。
 
 推荐流程：
 

@@ -11,6 +11,6 @@
 | `F5/` | `F5_latency_sequence.csv` | 处理时延和飞行时间补偿 |
 | `F6/` | `F6_detections.jsonl`, `F6_tracking.jsonl`, `F6_commands.jsonl`, `F6_public_issue_times.json` | 日志复盘 |
 
-这些文件是公开输入，不包含组织者真值。隐藏测试会更换部分数值、顺序或故障窗口。
+这些文件是公开输入，不包含算法组真值。隐藏测试会更换部分数值、顺序或故障窗口。
 
 F1 的 CSV 只包含匿名灯条候选：`frame,timestamp,side,cx,cy,length,angle_deg,brightness,color`。其中 `color` 为 `0=red`、`1=blue`；同一帧的多行需要先分组，再交给 `ArmorAssociator`。公开文件不含 `target_index`、`armor_id` 或遮挡真值。
