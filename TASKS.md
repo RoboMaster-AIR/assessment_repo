@@ -1,12 +1,12 @@
 # F1-F6 正式题总览
 
-F 题不是 T 题的连续升级。每题都包含自己的输入、接口和测试，任选一题即可完成。
+F 题不是 T 题的连续升级。每题都包含自己的输入、接口、可运行的弱基线和测试，任选一题即可完成。基线故意保留一个真实但可解释的缺陷，候选人只需改所选题目的模块，不需要从零搭建整套视觉系统。
 
 详细情景、最低行为契约和验收方式见 [`docs/F_TASKS.md`](docs/F_TASKS.md)。题面中的代码入口均指向本仓库的 starter 接口，不要求访问完整 `air_vision_27`。
 
 | 题目 | 核心能力 | 数据 | 主要接口 |
 |---|---|---|---|
-| F1 | 多车遮挡下的装甲检测与配对 | `data/F1/*.mp4` | `src/f1_detector.hpp` |
+| F1 | 多车遮挡下的装甲板关联与遮挡判定 | `data/F1/` | `src/f1_detector.hpp`、`src/f1_baseline.hpp` |
 | F2 | 丢失、预测、重捕获和释放 | `data/F2/F2_observations.csv` | `src/f2_tracker.hpp` |
 | F3 | 连续多目标锁定、滞回和安全释放 | `data/F3/F3_target_snapshots.jsonl` | `src/f3_target_manager.hpp` |
 | F4 | 弹道边界、无解和输入契约 | `data/F4/F4_ballistic_cases.jsonl` | `src/f4_ballistic_solver.hpp` |

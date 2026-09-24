@@ -20,4 +20,7 @@ class ReplayAnalyzer {
                                            const std::string& commands_path) = 0;
 };
 
+// f6_baseline.hpp includes a small JSONL replay checker. Candidates extend
+// the checks and evidence, without needing to invent a logging framework.
+
 }  // namespace rm_assessment

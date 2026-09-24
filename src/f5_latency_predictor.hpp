@@ -23,4 +23,8 @@ class LatencyPredictor {
   virtual Prediction predict(const LatencySample& sample) const = 0;
 };
 
+// f5_baseline.hpp contains a runnable one-line constant-velocity baseline.
+// The task is to correct its time semantics and stale handling, not to create
+// a camera, serial driver, or projectile model.
+
 }  // namespace rm_assessment

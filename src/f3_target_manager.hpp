@@ -13,6 +13,7 @@ struct TargetSnapshot {
   double threat = 0.0;
   bool is_enemy = false;
   bool visible = true;
+  bool operator_priority = false;
   int age_ms = 0;
   int track_age_frames = 0;
 };
@@ -32,5 +33,9 @@ class TargetManager {
                                 const std::optional<std::string>& operator_command) = 0;
   virtual void reset() = 0;
 };
+
+// A runnable but deliberately twitchy policy is provided in
+// f3_baseline.hpp. F3 is about replacing that policy with hysteresis and safe
+// release; it is not a request to build a detector or tracker.
 
 }  // namespace rm_assessment

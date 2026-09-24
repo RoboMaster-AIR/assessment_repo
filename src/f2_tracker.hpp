@@ -32,4 +32,9 @@ class ReacquisitionTracker {
   virtual void reset() = 0;
 };
 
+// The repository supplies a small working baseline in f2_baseline.hpp. It is
+// intentionally conservative and is the executable starting point for F2;
+// candidates improve the state transitions and matching policy rather than
+// building a camera or detector.
+
 }  // namespace rm_assessment

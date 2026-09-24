@@ -15,4 +15,7 @@ class BallisticSolver {
                                 double bullet_speed_mps) const = 0;
 };
 
+// See f4_baseline.hpp for the minimal closed-form implementation used by the
+// public replay. Candidates may replace only the edge-case policy and tests.
+
 }  // namespace rm_assessment
