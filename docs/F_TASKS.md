@@ -15,7 +15,7 @@ F 题使用本仓库提供的 starter 接口和 `data/F1` 到 `data/F6` 的公�
 
 **代码入口**：`assessment_repo/src/f1_detector.hpp`，可在本仓库内增加实现和测试。
 
-**输入**：`T1_T2_F1_single_video.mp4`、`F1_multi_video.mp4`。
+**输入**：`F1_single_video.mp4`、`F1_multi_video.mp4`。
 
 **要求**：
 
@@ -93,3 +93,4 @@ F 题使用本仓库提供的 starter 接口和 `data/F1` 到 `data/F6` 的公�
 - 一页以内的设计说明：状态、阈值、失败处理和已知限制。
 - 一条可复制的构建/测试命令。
 - 一段公开数据回放结果或终端输出。
+
