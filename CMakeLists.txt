@@ -28,3 +28,9 @@ target_link_libraries(f4_cases PRIVATE assessment_contracts)
 enable_testing()
 add_test(NAME f4_cases COMMAND f4_cases
   ${CMAKE_CURRENT_SOURCE_DIR}/data/F4/F4_ballistic_cases.jsonl)
+
+add_executable(f1_cases tests/f1_cases.cpp)
+target_link_libraries(f1_cases PRIVATE assessment_contracts)
+enable_testing()
+add_test(NAME f1_cases COMMAND f1_cases
+  ${CMAKE_CURRENT_SOURCE_DIR}/data/F1/F1_lightbar_candidates.csv)
